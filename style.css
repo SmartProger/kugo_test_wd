@@ -1,1 +1,48 @@
-
+* {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Jost";
+  src: url("fonts/Jost-Regular.woff") format("woff");
+  font-display: swap;
+}
+html {
+  font-family: "Jost";
+}
+body {
+  margin: 0;
+}
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 39px;
+  border-bottom: 1px solid #ecf3ff;
+}
+.header-top a {
+  text-decoration: none;
+  color: #5d6c7b;
+  font-family: Jost;
+  font-size: 12px;
+  line-height: 17px;
+}
+.header__link {
+  margin-inline: 15px;
+}
+.header__link:first-child {
+  margin-left: 165px;
+}
+.header__icon {
+  margin-inline: 5px;
+}
+a.header__tel {
+  margin-right: 165px;
+  color: #282739;
+  font-family: Jost;
+  font-size: 12px;
+  line-height: 17px;
+}
